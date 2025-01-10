@@ -284,7 +284,6 @@ border-radius: 16px;
   border: none;
 }
 .vision-future .vision-cards .modern{
-  /* background-color: #5490F5; */
   background-color: #F7EBCF;
   width: 410px;
   height: 325px;
@@ -395,14 +394,12 @@ border-radius: 16px;
 
  table{
   border-collapse: collapse;
-  /* width: 800px; */
   background-color: white;
   box-shadow: 20px 20px 34px rgba(0,0,0,0.03); 
   border: 1px solid  rgba(231, 223, 223, 0.8);
   width: 1216px;
   height: 250px;
-  /* border: 1px solid black; */
-  /* text-align: center; */
+ 
   margin: 32px;
  }
  th{
@@ -411,14 +408,13 @@ border-radius: 16px;
   font-weight: bold;
   color:#0E0E0E;
   background: #C6E4D6;
-  /* padding-bottom: 12px; */
  }
  tr{
   height: 70px;
  }
  th{
   height: 70px;
-  /* padding: 0 20px; */
+
  }
  td{
   background-color: white;
@@ -430,5 +426,225 @@ border-radius: 16px;
   font-weight: 600;
   color:#0E0E0E;
   padding-left: 25px;
-  /* padding: 0 20px; */
+
  }
+
+ /* Start recent news */
+ .recent-news{
+    width: 1280px;
+    height: 1406px;
+    border-radius: 24px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+  }
+ 
+ .recent-news .title{
+  font-family: "Fira Sans", serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: #0E0E0E;
+  margin-bottom: 10px 0;
+ }
+ .recent-news .description{
+  font-family: "Fira Sans", serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #0E0E0E;
+  opacity: 0.7;
+  margin-top:20px;
+ }
+ .recent-news .news-container{
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  width: 1280px;
+  height: 402px;
+  padding: 48px;
+  border-radius: 24px;
+  /* margin-top: 20px; */
+  background-color: white;
+  box-shadow: 20px 20px 34px rgba(0,0,0,0.03); 
+  border: 1px solid  rgba(231, 223, 223, 0.8);
+ }
+ .recent-news .news-container .news-img{
+  width: 408px;
+  height: 306px;
+  border-radius: 24px;
+ }
+ .recent-news .news-container .news-text title {
+  font-family: "Fira Sans", serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #0E0E0E;
+  opacity: 0.8;
+  margin: 0;
+  padding: 0;
+ }
+ .recent-news .news-container .news-text .text-img{
+  width: 134px;
+  height: 40px;
+ }
+ .recent-news .news-container .news-text .description{
+  font-family: "Fira Sans", serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #0E0E0E;
+  opacity: 100%;
+ }
+ .recent-news .news-container .news-text .news-btn{
+  background-color: #006A50;
+  border-radius: 8px;
+  padding: 10px 26px;
+  border: none;
+  font-family: "Fira Sans", serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #FFFFFF;
+  margin-top: 32px;
+ }
+ .recent-news .middle-container{
+  margin: 24px 0;
+ }
+ /* <!-- Start Donate part --> */
+ .donate{
+  height: 464px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin-top: 80px;
+ }
+ .donate .title{
+  font-family: "Fira Sans", serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: #0E0E0E;
+ }
+ .donate .description{
+  font-family: "Fira Sans", serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #0E0E0E;
+  margin: 24px 0;
+  width: 1104px;
+ }
+ .donate .donate-box {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 24px;
+  width: 1071px;
+  height: 128px;
+  margin-bottom: 24px;
+ }
+ .donate .donate-box .box{
+  width: 250px;
+  height: 128px;
+  border-radius: 16px;
+  border: 1px solid green;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  background-color: white;
+  box-shadow: 20px 20px 34px rgba(0,0,0,0.03); 
+  border: 1px solid  rgba(231, 223, 223, 0.8);
+ }
+ .donate .donate-box .box-ok{
+  background-color: #C6E4D6;
+ }
+ .donate .donate-box .box h1{
+  font-family: "Fira Sans", serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: #0E0E0E;
+  opacity: 0.8;
+ }
+ .donate input{
+  width: 1032px;
+  height: 64px;
+  padding:40px 20px;
+  font-family: "Fira Sans", serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: gainsboro;
+  text-align: center;
+  background-color: white;
+  box-shadow: 20px 20px 34px rgba(0,0,0,0.03); 
+  border: 1px solid  rgba(231, 223, 223, 0.8);
+ }
+ .donate .donate-btn{
+  background-color: #006A50;
+  border-radius: 8px;
+  padding: 15px 28px;
+  border: none;
+  font-family: "Fira Sans", serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #FFFFFF;
+  margin-top: 32px;
+ }
+
+ /* subscribe newsletter part */
+
+ .subscribe-newsletter{
+  width: 1280px;
+  height: 380px;
+  border-radius: 24px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px; 
+  background-color: #C6E4D6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+ }
+ .subscribe-newsletter .title{
+  font-family: "Fira Sans", serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: #0E0E0E;
+  margin-bottom: 20px;
+ }
+ .subscribe-newsletter .description{
+  font-family: "Fira Sans", serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #0E0E0E;
+ text-align: center;
+ }
+.subscribe-newsletter .input-button{
+  display: flex;
+  gap: 0;
+  margin: 30px 0;
+}
+.subscribe-newsletter .input-button input{
+width: 600px;
+height: 56px;
+border: none;
+font-family: "Inter", serif;
+border-radius: 10px 0 0 10px;
+background-color: #ffff;
+color: gray;
+font-size: 18px;
+padding-left: 50px;
+}
+.subscribe-newsletter .input-button button{
+  width: 150px;
+  height: 56px;
+  font-family: "Fira Sans", serif;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 0px 10px 10px 0px;
+  border: none;
+  background-color: #006A50;
+  color: gainsboro;
+}
