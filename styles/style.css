@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+  }
+  
+  ul li {
+    list-style-type: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+h1,h2,h3,h4,h5,h6, p,a {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Shared code */
+  .fira-sans{
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+  /* Start Header section */
+    /* Start Navbar section */
+  .nav{
+    width: 1280px;
+    /* height: 560px; */
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin:  auto;
+    padding: 10px 0;
+  }
+  .nav .nav-logo h1{
+    font-family: "Fira Sans", serif;
+    font-size: 32px;
+    font-weight: bold;
+    color:black;
+  }
+  .nav .nav-button button{
+    font-family: "Fira Sans", serif;
+    font-size: 18px;
+    font-weight: 600;
+    color:#006A50;
+    border: 1px solid #006A50;
+    padding: 15px 30px;
+    border-radius: 8px;
+  }
+/* Start Banner section */
+     .banner{
+      width: 1280px;
+      height: 560px;
+      border-radius: 24px;
+      /* border: 1px solid red; */
+      margin: 20px auto;
+      background-color: #C6E4D6;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      align-content: center;
+      position: relative;
+     }
+     .banner .banner-text{
+      width: 690px;
+      height: 326px;
+      /* border: 1px solid red; */
+     }
+.banner .banner-text .subtitle{
+  font-family: "Fira Sans", serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: #6A7972;
+  padding: 0px 40px;
+
+}
+.banner .banner-text .title{
+  font-family: "Fira Sans", serif;
+  font-size: 56px;
+  font-weight: bold;
+  color: #0E0E0E;
+  padding: 15px 40px;
+}
+.banner .banner-text .explore {
+  font-family: "Fira Sans", serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #6A7972;
+  padding: 17px 34px;
+  color: #FFFFFF;
+  background-color: #006A50;
+  border-radius: 8px;
+  margin: 0px 40px;
+  border: none;
+}
+.banner .banner-logo{
+  position: absolute;
+  left: 620px;
+  bottom: 150px;
+  width: 475px;
+  height: 400px;
+  /* border: 1px solid red; */
+}
+.banner .banner-logo img{
+  width: 675px;
+  /* height: 700px; */
+  padding: 60px 80px;
+}
