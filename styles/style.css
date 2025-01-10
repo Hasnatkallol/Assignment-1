@@ -59,7 +59,7 @@ h1,h2,h3,h4,h5,h6, p,a {
       height: 560px;
       border-radius: 24px;
       /* border: 1px solid red; */
-      margin: 20px auto;
+      margin: 0px auto;
       background-color: #C6E4D6;
       display: flex;
       justify-content: space-between;
@@ -79,7 +79,6 @@ h1,h2,h3,h4,h5,h6, p,a {
   color: #0E0E0E;
   opacity: 0.7;
   padding: 0px 40px;
-
 }
 .banner .banner-text .title{
   font-family: "Fira Sans", serif;
@@ -110,24 +109,83 @@ h1,h2,h3,h4,h5,h6, p,a {
 }
 .banner .banner-logo img{
   width: 675px;
-  /* height: 700px; */
   padding: 60px 80px;
+}
+/*start pillars-bangladesh */
+
+.pillars-bangladesh{
+  width: 1280px;
+  height: 324px;
+  border-radius: 24px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+ }
+ .pillars-bangladesh .title{
+  font-family: "Fira Sans", serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: #0E0E0E;
+  padding: 16px 0;
+}
+ .pillars-bangladesh .cards{
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  border-radius: 16px;
+ }
+ .pillars-bangladesh .cards .card{
+  background-color: white;
+  box-shadow: 20px 20px 34px rgba(0,0,0,0.03); 
+  border: 1px solid  rgba(231, 223, 223, 0.8);
+  opacity: 70%;
+  width: 410px;
+  height: 325px;
+  padding: 20px;
+  border-radius: 16px;
+  width: 302px;
+  height: 244px;
+
+  }
+
+ .pillars-bangladesh .cards .card .card-img{
+  width: 64px;
+  height: 64px;
+  margin-bottom: 24px;
+}
+.pillars-bangladesh .cards .card  .card-title{
+  font-family: "Fira Sans", serif;
+  font-size: 20px;
+  font-weight: bold;
+  color:#0E0E0E;
+  padding-bottom: 12px;
+}
+.pillars-bangladesh .cards .card .card-description{
+  font-family: "Fira Sans", serif;
+  font-size: 16px;
+  font-weight: 400;
+  color:#0E0E0E;
+  opacity: 70%;
+  padding-bottom: 24px;
 }
 
 /* Start vision Future  */
+
 .vision-future {
   width: 1280px;
   height: 560px;
   border-radius: 24px;
-  border: 1px solid red;
-  margin: 80px auto;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
 }
 .vision-future .title {
   font-family: "Fira Sans", serif;
   font-size: 40px;
   font-weight: 700;
   color: #0E0E0E;
-  /* padding: 0px 40px; */
 }
 .vision-future .description {
   font-family: "Fira Sans", serif;
@@ -144,7 +202,6 @@ h1,h2,h3,h4,h5,h6, p,a {
   gap: 24px;
 }
 .vision-future .vision-cards .card{
-/* background-color: #5490F5; */
 background-color: #D5E1F5;
 width: 410px;
 height: 325px;
@@ -155,8 +212,6 @@ border-radius: 16px;
   width: 64px;
   height: 64px;
   margin-bottom: 24px;
-  /* margin-top: 24px ;
-  margin-bottom: 24px; */
 }
 .vision-future .vision-cards .card .card-title{
   font-family: "Fira Sans", serif;
@@ -189,7 +244,6 @@ border-radius: 16px;
 
 
 .vision-future .vision-cards .green{
-  /* background-color: #5490F5; */
   background-color: #C4E4D6;
   width: 410px;
   height: 325px;
@@ -243,9 +297,51 @@ border-radius: 16px;
     font-weight: 600;
     color:#FFFFFF;
     background-color: #FFC239;
-    /* padding: 11px 20px; */
     border-radius: 8px;
     margin-top: 20px;
     margin-bottom: 32px;
     border: none;
   }
+/* start younus text */
+.younus-text {
+  width: 1280px;
+  height: 240px;
+  border-radius: 16px;
+  margin: 0px auto;
+  background-color: white;
+  box-shadow: 20px 20px 34px rgba(0,0,0,0.03); 
+  border: 1px solid  rgba(231, 223, 223, 0.8);
+  position: relative;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+text-align: justify;
+}
+.younus-text .icon{
+  position: absolute;
+  width:64px;
+  height:64px;
+}
+.younus-text .description{
+  font-family: "Fira Sans", serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #0E0E0E;
+  opacity: 0.7;
+  padding-top: 24px;
+}
+.younus-text h4{
+  font-family: "Fira Sans", serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #0E0E0E;
+  padding-top: 12px;
+  padding-bottom: 8px;
+}
+.younus-text .description-2{
+  font-family: "Fira Sans", serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #0E0E0E;
+  opacity: 0.7;
+}
