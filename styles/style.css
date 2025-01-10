@@ -76,7 +76,8 @@ h1,h2,h3,h4,h5,h6, p,a {
   font-family: "Fira Sans", serif;
   font-size: 24px;
   font-weight: 500;
-  color: #6A7972;
+  color: #0E0E0E;
+  opacity: 0.7;
   padding: 0px 40px;
 
 }
@@ -112,3 +113,139 @@ h1,h2,h3,h4,h5,h6, p,a {
   /* height: 700px; */
   padding: 60px 80px;
 }
+
+/* Start vision Future  */
+.vision-future {
+  width: 1280px;
+  height: 560px;
+  border-radius: 24px;
+  border: 1px solid red;
+  margin: 80px auto;
+}
+.vision-future .title {
+  font-family: "Fira Sans", serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: #0E0E0E;
+  /* padding: 0px 40px; */
+}
+.vision-future .description {
+  font-family: "Fira Sans", serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #0E0E0E;
+  opacity: 0.7;
+ padding-top: 24px;
+ padding-bottom: 32px;
+}
+.vision-future .vision-cards{
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.vision-future .vision-cards .card{
+/* background-color: #5490F5; */
+background-color: #D5E1F5;
+width: 410px;
+height: 325px;
+padding: 20px;
+border-radius: 16px;
+}
+.vision-future .vision-cards .card .card-img{
+  width: 64px;
+  height: 64px;
+  margin-bottom: 24px;
+  /* margin-top: 24px ;
+  margin-bottom: 24px; */
+}
+.vision-future .vision-cards .card .card-title{
+  font-family: "Fira Sans", serif;
+  font-size: 20px;
+  font-weight: bold;
+  color:#0E0E0E;
+  opacity: 80%;
+  padding-bottom: 12px;
+}
+.vision-future .vision-cards .card .card-description{
+  font-family: "Fira Sans", serif;
+  font-size: 16px;
+  font-weight: 400;
+  color:#0E0E0E;
+  opacity: 70%;
+  padding-bottom: 24px;
+}
+.vision-future .vision-cards .card .card-btn{
+  font-family: "Fira Sans", serif;
+  font-size: 16px;
+  font-weight: 600;
+  color:#FFFFFF;
+  background-color: #5490F5;
+  padding: 11px 20px;
+  border-radius: 8px;
+  margin-bottom: 32px;
+  border: none;
+}
+
+
+
+.vision-future .vision-cards .green{
+  /* background-color: #5490F5; */
+  background-color: #C4E4D6;
+  width: 410px;
+  height: 325px;
+  padding: 20px;
+  border-radius: 16px;
+  }
+.vision-future .vision-cards .green .card-img{
+  width: 64px;
+  height: 64px;
+  margin-bottom: 24px;
+}
+.vision-future .vision-cards .green .card-title{
+  font-family: "Fira Sans", serif;
+  font-size: 20px;
+  font-weight: bold;
+  color:#0E0E0E;
+  opacity: 80%;
+  padding-bottom: 12px;
+}
+.vision-future .vision-cards .green .card-description{
+  font-family: "Fira Sans", serif;
+  font-size: 16px;
+  font-weight: 400;
+  color:#0E0E0E;
+  opacity: 70%;
+  padding-bottom: 24px;
+}
+.vision-future .vision-cards .green .card-btn{
+  font-family: "Fira Sans", serif;
+  font-size: 16px;
+  font-weight: 600;
+  color:#FFFFFF;
+  background-color: #09A15C;
+  padding: 11px 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-bottom: 32px;
+  border: none;
+}
+.vision-future .vision-cards .modern{
+  /* background-color: #5490F5; */
+  background-color: #F7EBCF;
+  width: 410px;
+  height: 325px;
+  padding: 20px;
+  border-radius: 16px;
+  }
+  .vision-future .vision-cards .modern .card-btn{
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 600;
+    color:#FFFFFF;
+    background-color: #FFC239;
+    /* padding: 11px 20px; */
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 32px;
+    border: none;
+  }
