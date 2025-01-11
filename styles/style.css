@@ -24,6 +24,10 @@ h1,h2,h3,h4,h5,h6, p,a {
     font-weight: 100;
     font-style: normal;
   }
+  #button:hover{
+    background-color: #02291f;
+  transition: 0.4 ease;
+  }
 
   /* Start Header section */
     /* Start Navbar section */
@@ -76,7 +80,7 @@ h1,h2,h3,h4,h5,h6, p,a {
   font-family: "Fira Sans", serif;
   font-size: 24px;
   font-weight: 500;
-  color: #0E0E0E;
+  color: #2c2828;
   opacity: 0.7;
   padding: 0px 40px;
 }
@@ -208,6 +212,10 @@ height: 325px;
 padding: 20px;
 border-radius: 16px;
 }
+.vision-future .vision-cards .card:hover{
+  background-color: #cadaf5;
+  transition: 0.4 ease;
+  }
 .vision-future .vision-cards .card .card-img{
   width: 64px;
   height: 64px;
@@ -240,6 +248,10 @@ border-radius: 16px;
   margin-bottom: 32px;
   border: none;
 }
+.vision-future .vision-cards .card .card-btn:hover{
+  background-color: #2972f0;
+  transition: 0.4 ease;
+}
 
 
 
@@ -250,6 +262,10 @@ border-radius: 16px;
   padding: 20px;
   border-radius: 16px;
   }
+.vision-future .vision-cards .green:hover{
+    background-color: #aae4cb;
+    transition: 0.4 ease;
+    }
 .vision-future .vision-cards .green .card-img{
   width: 64px;
   height: 64px;
@@ -283,6 +299,9 @@ border-radius: 16px;
   margin-bottom: 32px;
   border: none;
 }
+.vision-future .vision-cards .green .card-btn:hover{
+  background-color: #046b3d;
+}
 .vision-future .vision-cards .modern{
   background-color: #F7EBCF;
   width: 410px;
@@ -290,6 +309,10 @@ border-radius: 16px;
   padding: 20px;
   border-radius: 16px;
   }
+.vision-future .vision-cards .modern:hover{
+    background-color: #dfc996;
+   transition: 0.4 ease;
+    }
   .vision-future .vision-cards .modern .card-btn{
     font-family: "Fira Sans", serif;
     font-size: 16px;
@@ -300,6 +323,10 @@ border-radius: 16px;
     margin-top: 20px;
     margin-bottom: 32px;
     border: none;
+  }
+  .vision-future .vision-cards .modern .card-btn:hover{
+    background-color: #ecab14;
+    transition: 0.4 ease;
   }
 
 
@@ -375,10 +402,7 @@ border-radius: 16px;
   border: 1px solid  rgba(231, 223, 223, 0.8);
  }
 .opinion-table select{
-  border-top: 1px solid black;
-  border-bottom: 1px solid rgb(152, 150, 150);
-  border-right:  1px solid rgb(152, 150, 150);
-  border-left:  1px solid rgb(152, 150, 150);
+  border: 1px solid black;
   font-family: "Fira Sans", serif;
   font-size: 16px;
   font-weight: 500;
@@ -392,8 +416,13 @@ border-radius: 16px;
   margin-left: 20px;
   width: 152px;
   height: 54px;
-  
 } 
+.opinion-table select:hover{
+  background-color: #076439;
+  color: white;
+  transition: 0.4 ease;
+} 
+
 
  table{
   border-collapse: collapse;
@@ -557,6 +586,10 @@ border-radius: 16px;
   background-color: white;
   box-shadow: 20px 20px 34px rgba(0,0,0,0.03); 
   border: 1px solid  rgba(231, 223, 223, 0.8);
+ }
+ .donate .donate-box #box:hover{
+  background-color: #C6E4D6;
+  transition: 0.4 ease;
  }
  .donate .donate-box .box-ok{
   background-color: #C6E4D6;
