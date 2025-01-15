@@ -1,0 +1,288 @@
+#hide{
+    display: none;
+}
+#button:hover{
+  background-color: #02291f;
+  transition: 0.4 ease;
+  color: white;
+  cursor: pointer;
+}
+@media screen and (max-width: 576px) {
+    .nav{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
+        margin:  auto;
+        padding: 10px;
+      }
+      .nav .nav-button button{
+        border-radius: 5px;
+      }
+.banner{
+        width: 100%;
+        flex-direction: column-reverse;
+        padding: 10px;  
+        border-radius: 5px;  
+       }
+.banner .banner-text{
+        width: 100%;
+        margin-top: 100px;
+        padding-top: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       }
+  .banner .banner-text .title{
+    font-family: "Fira Sans", serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #0E0E0E;
+    padding: 15px 40px;
+  }
+  .banner .banner-text .explore {
+    width: 380px;
+    align-self: flex-start;
+    margin-left: 80px;
+  }
+  .banner .banner-logo{
+    position: absolute;
+    left: 50px;
+    bottom: 200px;
+    width: 475px;
+    height: 400px;
+    margin-bottom: 20px;
+  }
+  .banner .banner-logo img{
+    width: 100%;
+    height: 100%;
+    margin-top: 5px;
+  }
+
+  .pillars-bangladesh{
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+   }
+   .pillars-bangladesh .title{
+     align-self: center;
+     text-align: center;
+  }
+   .pillars-bangladesh .cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+   }
+   .pillars-bangladesh .cards .card{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    }
+
+/* ..................................................................................question */
+    .vision-future {
+      width: 100%;
+      height: auto;
+    }
+    .vision-future .title {
+      text-align: center;
+    }
+    .vision-future .description {
+     text-align: start;
+     padding-left:20px ;
+    }
+    .vision-future .vision-cards{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      gap: 24px;
+    }
+    .vision-future .vision-cards .card{
+    background-color: #D5E1F5;
+    width: 100%;
+    height: 325px;
+    padding: 20px;
+    border-radius: 16px;
+    }
+
+
+    .younus-text {
+      width: 100%;
+      height: auto;
+      border-radius: 16px;
+      margin: 20px auto;
+    }
+
+    .opinion{
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+      margin: 0px auto;
+      margin-top: 40px;
+     }
+    .opinion .title {
+       text-align: center;
+    }
+     .opinion-table{
+      width: 100%;
+   
+     }
+     td{
+      width: 50px;
+      padding-right: 20px;
+    }
+    .opinion-table select{
+       border: 1px solid black;
+      font-family: "Fira Sans", serif;
+      font-size: 16px;
+      font-weight: 500;
+      color:#0E0E0E;
+      background-color: #C6E4D6;
+      border-radius: 4px;
+      padding-right: 0px;
+      padding-top: 0px;
+      padding-bottom: 0px;
+      margin-left: 0px;
+      width: 100%;
+      height: 54px;
+      margin-right: 0px;
+      padding-right: 0px;
+    } 
+    table{
+      border-collapse: collapse;
+      background-color: white;
+      box-shadow: 20px 20px 34px rgba(0,0,0,0.03); 
+      border: 1px solid  rgba(231, 223, 223, 0.8);
+      width: 100%;
+      height: 250px;
+      margin: 0px;
+     }
+     th{
+      font-family: "Fira Sans", serif;
+      font-size: 16px;
+      font-weight: bold;
+      color:#0E0E0E;
+      background: #C6E4D6;
+     }
+     tr{
+      height: 70px;
+   
+     }
+     th{
+      height: 70px;
+    
+     }
+     td{
+      background-color: white;
+      box-shadow: 20px 20px 34px rgba(0,0,0,0.03); 
+      border: 1px solid  rgba(231, 223, 223, 0.8);
+      height: 93px;
+      font-family: "Fira Sans", serif;
+      font-size: 16px;
+      font-weight: 500;
+      color:#0E0E0E;
+      padding-left: 15px;
+     }
+
+     .recent-news{
+      width: 100%;
+      height: auto;
+      padding-left: 20px;
+    }
+    .recent-news .news-container{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: auto;
+     }
+     .recent-news .middle-container{
+      flex-direction: column-reverse;
+     }
+
+     .donate{
+      height: auto;
+     }
+     .donate .title{
+      font-family: "Fira Sans", serif;
+      font-size: 40px;
+      font-weight: 500;
+      color: #0E0E0E;
+     }
+     .donate .description{
+      text-align: start;
+      margin: 24px 0;
+      width: 100%;
+      padding-left: 20px;
+     }
+     .donate .donate-box {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      gap: 24px;
+      width: 100%;
+      height: auto;
+      margin-bottom: 24px;
+     }
+     .donate .donate-box .box{
+      width: 250px;
+      height: 58px;
+     }
+     .donate input{
+      /* width: calc(100% - 40px); */
+      width: 300px;
+      margin:0 10px;
+      height: 64px;
+      border-radius: 5px;
+     }
+     .donate .donate-btn{
+      width: 300px;
+      margin:10px;
+      height: 64px;
+      border-radius: 5px;
+     }
+
+     .subscribe-newsletter{
+      width: 100%;
+      height: auto;
+      border-radius: 24px;
+      margin: 50px 0;
+     }
+     .subscribe-newsletter .title{
+      
+      margin: 20px;
+     }
+
+     .subscribe-newsletter .input-button input{
+      width: 300px;
+      }
+      .subscribe-newsletter .input-button button{
+        width: 150px;
+      }
+      .subscribe-newsletter .description{
+        padding-bottom: 20px;
+      }
+      .footer{
+        margin-top: 40px;
+      }
+      hr{
+        background-color: rgb(238, 235, 235);
+          width: 100%;
+          text-align: center;
+          align-items: center;
+          margin: 10px 0;
+        }
+  }

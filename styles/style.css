@@ -70,7 +70,7 @@ h1,h2,h3,h4,h5,h6, p,a {
       align-content: center;
       position: relative;
      }
-     .banner .banner-text{
+.banner .banner-text{
       width: 690px;
       height: 326px;
       /* border: 1px solid red; */
@@ -149,7 +149,6 @@ h1,h2,h3,h4,h5,h6, p,a {
   border-radius: 16px;
   width: 302px;
   height: 244px;
-
   }
 
  .pillars-bangladesh .cards .card .card-img{
@@ -212,7 +211,7 @@ padding: 20px;
 border-radius: 16px;
 }
 .vision-future .vision-cards .card:hover{
-  background-color: #cadaf5;
+  background-color: #9dbcf2;
   transition: 0.4 ease;
   }
 .vision-future .vision-cards .card .card-img{
@@ -262,7 +261,7 @@ border-radius: 16px;
   border-radius: 16px;
   }
 .vision-future .vision-cards .green:hover{
-    background-color: #aae4cb;
+    background-color: #83dfb7;
     transition: 0.4 ease;
     }
 .vision-future .vision-cards .green .card-img{
@@ -401,7 +400,7 @@ border-radius: 16px;
   border: 1px solid  rgba(231, 223, 223, 0.8);
  }
 .opinion-table select{
-  border: 1px solid black;
+   border: 1px solid black;
   font-family: "Fira Sans", serif;
   font-size: 16px;
   font-weight: 500;
@@ -416,10 +415,31 @@ border-radius: 16px;
   width: 152px;
   height: 54px;
 } 
+.select-parent{
+  /* border: 1px solid black;
+  font-family: "Fira Sans", serif;
+  font-size: 16px;
+  font-weight: 500;
+  color:#0E0E0E;
+  background-color: #C6E4D6;
+  border-radius: 4px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  margin-left: 20px;
+  width: 152px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  justify-content: space-between;
+  appearance: none; */
+}
 .opinion-table select:hover{
   background-color: #076439;
   color: white;
-  transition: 0.4 ease;
+  transition: 0.4 ease; 
 } 
 
 
@@ -442,6 +462,7 @@ border-radius: 16px;
  }
  tr{
   height: 70px;
+
  }
  th{
   height: 70px;

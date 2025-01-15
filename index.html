@@ -7,11 +7,12 @@
     <link rel="shortcut icon" href="./assets/bangladesh.webp" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
 </head>
 <body style="background-color: #f5f5f5;">
     <header>
         <!-- Start Nav Bar -->
-    <div class="nav">
+    <div class="nav" id="">
         <div class="nav-logo">
             <h1>Bangladesh 2.0</h1>
         </div>
@@ -20,7 +21,7 @@
         </div>
     </div>
       <!-- Start Nav Bar -->
-       <div class="banner">
+       <div class="banner" id="">
             <div class="banner-text">
                 <h3 class="subtitle">Bangladesh 2.0</h3>
                 <h1 class="title">
@@ -72,7 +73,7 @@
           </section>
 
          <!-- Start vision Future  -->
-          <section class="vision-future">
+          <section class="vision-future" id="">
             <h1 class="title">The Vision of Future</h1>
             <p class="description">
                 Bangladesh 2.0 aims to redefine the nation’s trajectory by embracing cutting-edge technology, promoting inclusive growth, and ensuring sustainability. With initiatives in <br> renewable energy, digital transformation, and robust infrastructure, the country is set to become a global model of development.
@@ -99,19 +100,21 @@
             </div>
           </section>
 
-          <section class="younus-text">
+          <section class="younus-text" id="">
             <div class="icon">
                 <img src="./assets/quote-bg.png" alt="">
             </div>
-            <p class="description">
+            <p class="description" >
                 Dr Yunus emphasised the interim government's dedication to restoring democracy, combating corruption, and overhauling key sectors such as the judiciary, banking, and education. He called on all political parties to support these efforts, urging a consensus-driven approach to rebuild the nation on a foundation that truly serves the public interest. His vision for a new Bangladesh is one where the sacrifices made during the recent uprising translate into a just and democratic society.
             </p>
             <h4>Dr. Muhammad Yunus</h4>
             <p class="description-2">Chief Adviser of the People's Republic of Bangladesh</p>
           </section>
 
+   
+
           <!-- Start opinion part -->
-           <section class="opinion">
+           <section class="opinion" id="">
             <h1 class="title">Your Opinion Matters</h1>
                 <div class="opinion-table">
                     <table>
@@ -123,27 +126,33 @@
                              padding-left: 25px;
                              align-items:center;
                              ">Questions</th>
-                          <th style="padding-right: 40px;">Select Your Opinion</th>
+                          <th>Select Your Opinion</th>
                         </tr>
                         <tr>
                           <td>Do you believe Bangladesh is on the right path toward becoming a developed nation?</td>
                           <td>
-                            <select name="opinion" id="opinion">
-                                <option value="agree">Yes, I Agree</option>
-                                <option value="neutral">Neutral</option>
-                                <option value="no">No</option>
-                              </select>
+                             <div class="select-parent">
+                                <select name="opinion" id="opinion" >
+                              
+                                    <option  value="agree">Yes, I Agree</option>
+                                    <option value="neutral">Neutral</option>
+                                    <option value="no">No</option>
+                                  </select>
+                                  <!-- <span><i style="font-size: 50px;" class="fa-solid fa-angle-down"></i> </span> -->
+                             </div>
                           </td>
                         </tr>
 
                         <tr>
                             <td>Do you believe Bangladesh is on the right path toward becoming a developed nation?</td>
                             <td>
-                              <select name="opinion" id="opinion">
-                                  <option value="agree">Yes, I Agree</option>
-                                  <option value="neutral">Neutral</option>
-                                  <option value="no">No</option>
-                                </select>
+                             <div class="select-parent">
+                                <select name="opinion" id="opinion">
+                                    <option value="agree">Yes, I Agree </option>
+                                    <option value="neutral">Neutral</option>
+                                    <option value="no">No</option>
+                                  </select>
+                             </div>
                             </td>
                           </tr>
 
@@ -151,11 +160,13 @@
                             <td>Do you believe Bangladesh is on the right path toward becoming a developed nation?</td>
                             <td>
                               
+                               <div class="select-parent">
                                 <select name="opinion" id="opinion">
                                     <option  value="agree">Yes, I Agree</option>
                                     <option value="neutral">Neutral</option>
                                     <option value="no">No</option>
                                   </select>
+                               </div>
                                
                             </td>
                           </tr>
@@ -165,7 +176,7 @@
            </section>
 
             <!-- Recent News part -->
-             <section class="recent-news">
+             <section class="recent-news" id="">
                 <h1 class="title">Recent News</h1>
                   <p style="margin-bottom: 30px;" class="description">
                     Bangladesh 2.0 aims to redefine the nation’s trajectory by embracing cutting-edge technology, promoting inclusive growth, and ensuring sustainability. With initiatives in <br> renewable energy, digital transformation, and robust infrastructure, the country is set to become a global model of development.
@@ -211,7 +222,7 @@
              </section>
 
            <!-- Donate part -->
-             <section class="donate">
+             <section class="donate" id="">
                 <h1 class="title">Donate Today</h1>
                 <p class="description">
                     Bangladesh 2.0 aims to redefine the nation’s trajectory by embracing cutting-edge technology, promoting inclusive growth, and ensuring sustainability. With initiatives in renewable energy, digital transformation, and robust infrastructure.
@@ -235,7 +246,7 @@
              </section>
 
              <!-- Subscribe newsletter part -->
-              <section class="subscribe-newsletter">
+              <section class="subscribe-newsletter" id="">
                    <h1 class="title">Subscribe Newsletter</h1>
                    <p class="description">
                     Bangladesh 2.0 aims to redefine the nation’s trajectory by embracing cutting-edge <br> technology, promoting inclusive growth.
@@ -250,7 +261,7 @@
               </section>
     </main>
 
-    <footer>
+    <footer id="">
         <section class="footer">
             <h1 class="title">Bangladesh 2.0</h1>
             <hr>
