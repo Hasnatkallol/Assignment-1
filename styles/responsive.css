@@ -356,6 +356,9 @@
         padding: 0;
         margin: 0;
         background-image: url("../assets/hero.png");
+        background-color: transparent;
+        background-position: center;
+        background-repeat: no-repeat;
        }
 .banner .banner-text{
         width: 100%;
@@ -377,7 +380,7 @@
     padding: 10px 35px; 
   }
   .banner .banner-text .explore {
-    width: 400px;
+    width: calc(100% - 80px);
     align-self: flex-start;
     margin-left: 35px;
   }
