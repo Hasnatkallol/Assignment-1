@@ -1,7 +1,5 @@
 @media screen and (min-width: 576px) and (max-width: 992px) {
 
-
- 
         .nav{
             width: 100%;
             display: flex;
@@ -17,7 +15,7 @@
         
     .banner{
             width: 100%;
-            flex-direction: column-reverse;
+            /* flex-direction: column-reverse; */
             padding: 10px;  
             border-radius: 5px;  
            }
