@@ -1,5 +1,5 @@
 #hide{
-  display: none;
+  /* display: block; */
 }
 
 @media screen and (max-width: 576px) {
@@ -213,7 +213,7 @@
      .recent-news{
       width: 100%;
       height: auto;
-      padding-left: 20px;
+      padding: 10px;
     }
     .recent-news .news-container{
       display: flex;
@@ -297,7 +297,8 @@
       text-align: center;
      }
      .subscribe-newsletter .title{
-      /* margin: 20px; */
+      margin-top: 10px;
+      font-size: 30px;
      }
      .subscribe-newsletter .input-button{
       align-self: center;
@@ -309,7 +310,7 @@
      }
      .subscribe-newsletter .input-button input{
       width: 200px;
-      /* padding: 0; */
+      padding-left: 9px;
       }
       .subscribe-newsletter .input-button button{
         width: 100px;
