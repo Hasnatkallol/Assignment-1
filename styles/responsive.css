@@ -380,9 +380,9 @@
     padding: 10px 35px; 
   }
   .banner .banner-text .explore {
-    width: 200px;
+    width: calc(100% - 70px);
     align-self: flex-start;
-    margin-left: 35px;
+    margin:0 30px;
   }
   .banner .banner-logo{
    position: absolute; 
