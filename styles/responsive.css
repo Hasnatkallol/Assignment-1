@@ -1,10 +1,11 @@
 #hide{
-  display: block;
+  display: none;
 }
 
 @media screen and (max-width: 576px) {
+
     .nav{
-        width: 100%;
+      width: 100%;
         display: flex;
         justify-content: space-between;
         text-align: center;
@@ -24,7 +25,7 @@
         border-radius: 5px;  
        }
 .banner .banner-text{
-        width: 100%;
+   width: 100%;
         margin-top: 100px;
         padding-top: 80px;
         display: flex;
@@ -49,8 +50,8 @@
   }
   .banner .banner-logo{
    position: absolute; 
-   left: 10px;
-   top: -45px;
+   left: -48px;
+   top: -50px;
     width: 475px;
     height: 400px;
     /* margin-bottom: 20px; */
@@ -217,7 +218,7 @@
       height: auto;
      }
      .recent-news .news-container .news-img{
-      width: 408px;
+      width: 308px;
       height: 306px;
       border-radius: 24px;
       align-self: center;
@@ -280,21 +281,34 @@
      }
 
      .subscribe-newsletter{
-      width: 100%;
+      width: calc(100% - 20px);
       height: auto;
       border-radius: 24px;
-      margin: 50px 0;
+      margin: 50px auto;
+      padding: 0 10px;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
      }
      .subscribe-newsletter .title{
-      
-      margin: 20px;
+      /* margin: 20px; */
      }
-
+     .subscribe-newsletter .input-button{
+      align-self: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+     }
      .subscribe-newsletter .input-button input{
-      width: 300px;
+      width: 200px;
+      /* padding: 0; */
       }
       .subscribe-newsletter .input-button button{
-        width: 150px;
+        width: 100px;
       }
       .subscribe-newsletter .description{
         padding-bottom: 20px;
