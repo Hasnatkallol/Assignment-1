@@ -5,14 +5,14 @@
 @media screen and (max-width: 576px) {
 
     .nav{
-      width: calc(100% - 20px);
+    width: 100%;
         display: flex;
         justify-content: space-between;
         text-align: center;
         align-items: center;
         margin:  auto;
         padding: 10px;
-        border: 1px solid red; 
+        /* border: 1px solid red;  */
       }
   
       .nav .nav-button button{
@@ -20,11 +20,11 @@
       }
     
 .banner{
-        width: calc(100% - 20px);
+       width: 100%;
         flex-direction: column-reverse;
         padding: 10px;  
         border-radius: 5px; 
-        border: 1px solid red; 
+        /* border: 1px solid red;  */
        }
 .banner .banner-text{
    width: 100%;
@@ -54,7 +54,7 @@
    position: absolute; 
    left: -48px;
    top: -50px;
-    width: 475px;
+    width: calc(399px - -48px);
     height: 400px;
     /* margin-bottom: 20px; */
   }
