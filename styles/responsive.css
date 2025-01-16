@@ -1,12 +1,5 @@
-#hide{
-    display: none;
-}
-#button:hover{
-  background-color: #02291f;
-  transition: 0.4 ease;
-  color: white;
-  cursor: pointer;
-}
+
+
 @media screen and (max-width: 576px) {
     .nav{
         width: 100%;
@@ -20,6 +13,7 @@
       .nav .nav-button button{
         border-radius: 5px;
       }
+    
 .banner{
         width: 100%;
         flex-direction: column-reverse;
